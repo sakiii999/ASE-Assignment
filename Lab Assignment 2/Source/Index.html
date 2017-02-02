@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <!-- Website CSS style -->
+    <link rel="stylesheet" type="text/css" href="CSS/Main.css">
+
+    <!-- Website Font style -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <title>Login Page</title>
+</head>
+<body>
+<div class="container">
+<div class="row main">
+    <div class="panel-heading">
+        <div class="panel-title text-center">
+            <h1 class="title">doCent</h1>
+            <hr />
+        </div>
+    </div>
+    <div class="main-login main-center">
+        <form class="form-horizontal" method="post" action="Home.html" name="Login" onsubmit="return lvalidation()">
+<div class="form-group">
+    <label for="lusername" class="cols-sm-2 control-label">Username</label>
+    <div class="cols-sm-10">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+            <input type="text" class="form-control" name="lusername" id="lusername"  placeholder="Enter your Username"/>
+        </div>
+    </div>
+</div>
+
+<div class="form-group">
+    <label for="lpassword" class="cols-sm-2 control-label">Password</label>
+    <div class="cols-sm-10">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+            <input type="password" class="form-control" name="lpassword" id="lpassword"  placeholder="Enter your Password"/>
+        </div>
+    </div>
+</div>
+            <div class="form-group ">
+                <input type="submit" class="btn btn-primary btn-lg btn-block login-button" name="Login" value="Login" id="Login"></input>
+            </div>
+            <div class="login-register">
+                <a href="Register.html">Register</a>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+<script>
+    function lvalidation() {
+        if (localStorage) {
+            form = document.forms["Login"];
+            var username1 = form["lusername"].value;
+            var pass = form["lpassword"].value;
+            var name = localStorage.getItem("username");
+            var pass1 = localStorage.getItem("password");
+            if (username1 == name && pass == pass1) {
+                return true;
+            } else {
+                alert("Please enter valid credentials");
+                return false;
+            }
+        }
+    }
+</script>
+</body>
+</html>
