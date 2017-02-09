@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-signin-client_id" content="395419189250-37mfe4b32l75gd6tioebkt83hf8maood.apps.googleusercontent.com">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script type="text/javascript" src="JS/app.js"></script>
+    <title>Index Page</title>
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <!-- Website CSS style -->
+    <link rel="stylesheet" type="text/css" href="CSS/Main.css">
+
+    <!-- Website Font style -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="container">
+    <div class="row main">
+        <div class="panel-heading">
+            <div class="panel-title text-center">
+                <h1 class="title">MashUp 2.0</h1>
+                <hr />
+            </div>
+        </div>
+        <div class="main-login main-center">
+            <form class="form-horizontal" method="post" action="Home.html" name="Login" >
+                <div class="form-group">
+                    <label for="lusername" class="cols-sm-2 control-label">Username</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
+                            <input type="text" class="form-control" name="lusername" id="lusername"  placeholder="Enter your Username"/>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="lpassword" class="cols-sm-2 control-label">Password</label>
+                    <div class="cols-sm-10">
+                        <div class="input-group">
+                            <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+                            <input type="password" class="form-control" name="lpassword" id="lpassword"  placeholder="Enter your Password"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <input type="submit" class="btn btn-primary btn-lg btn-block login-button" formaction="Home.html" name="Login" value="Login" id="Login"></input>
+                </div>
+                <div align="center"><label class="cols-sm-2 control-label">or</label></div><br>
+                <div align="center"
+                     class="g-signin2"
+                     data-onsuccess="onSignIn"
+                     data-scope="https://www.googleapis.com/auth/plus.login"
+                     data-accesstype="offline"
+
+                     data-redirecturi="http://localhost:63342/LA3/Home.html">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

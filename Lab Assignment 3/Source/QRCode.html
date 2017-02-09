@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="QRCode">
+<head>
+    <meta charset="UTF-8">
+    <title>QR Code Generator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js" type="application/javascript"></script>
+    <script src="JS/app.js"></script>
+
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <!-- Website CSS style -->
+    <link rel="stylesheet" type="text/css" href="CSS/Main.css">
+
+    <!-- Website Font style -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+</head>
+
+
+<body>
+<div class="row main">
+    <div class="panel-heading">
+        <div class="panel-title text-center">
+            <h1 class="title">QR Code Generator</h1>
+            <hr />
+        </div>
+    </div>
+    <form id="myForm">
+    <div class="main-center">
+    <div class="text-center" ng-controller="main">
+    <p>Enter data to store in your QR code</p> <br>
+    <div class="input-group">
+        <span class="input-group-addon"><i class="fa fa-lock fa-lg" aria-hidden="true"></i></span>
+        <input type="text" class="form-control" name="text" id="text"/>
+    </div><br>
+    <button id="action" ng-click="dataQR()" class="btn btn-primary btn-lg btn-block login-button" onclick="clear()">Generate QR Code</button>
+    <br>
+    <img src="" id="displayhere">
+    </div>
+</div>
+    </form>
+</div>
+<script type="text/javascript">
+    function clear() {
+        document.getElementById("text").value = "";
+    }
+</script>
+</body>
+</html>
