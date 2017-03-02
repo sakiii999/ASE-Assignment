@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="82825756edeeb3b56b15e73b2edd56e93da5a444">
+        <dex dex="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.1.0_6f56646679c2e85d348341eeb588ffd914769707/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/exploded-aar/com.google.android.support/wearable/1.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="0e239b45d3b94ac3d759405a9c5fd1f88e53913b">
+        <dex dex="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.support-wearable-1.2.0_fdfc4c4d0a7db321941db35c4d677368abd910c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.1.0_2436e31e1b775112858930436c15208e386d7929/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="2a7e47da654546f9457deb6132364f1bf33a1857">
+        <dex dex="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-8.1.0_d59bac9ef4df86ba4c2592ba84244807e37f6890/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.0_0c9d691ba4777c96a7a29c4bc4f1cf4bd09b47e1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c6d79137693d494dee16372d3921f919eb724ced">
+        <dex dex="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-22.0.0_3a2664920aee97c7799b51b2447a90adee9aca9c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Saki/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.0_df727ac73eb196a5c38dd11bc342c82785a21154/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.0_f44befd39b3f7adfa57e14e894c5d96a274ddf06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="6ab06edd671dc7e888f62a5ec133ed163718a428">
+        <dex dex="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4e23738bfa8a3cf30aa18cf0b9f7ab06996b9239/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="d3e25a0d35e6563b2d5c6943741063ceaaf59968">
+        <dex dex="/Users/Saki/Desktop/android-samples-master/AndroidWearMap/Wearable/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8d0fcc2aeb0fcc103ab5f5226d5fac5211b1a01d/classes.dex" />
+    </item>
+
+</items>
