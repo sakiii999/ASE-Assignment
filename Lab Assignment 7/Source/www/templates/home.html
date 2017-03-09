@@ -1,0 +1,60 @@
+
+<ion-view title="Home" id="page5" xmlns:list-style-position="http://www.w3.org/1999/xhtml"
+          xmlns:list-style-position="http://www.w3.org/1999/xhtml"
+          xmlns:list-style-position="http://www.w3.org/1999/xhtml">
+   <ion-content padding="true" class="has-header"  ng-controller="View1Ctrl">
+
+
+       <div id="div_SearchContainer">
+         <h1 align="absolute" style="text-align: center; color: Blue">Search your favourite item!</h1>
+         <label class="item item-input" >
+           <span class="input-label"></span>
+           <input type="text" id="txt_itemName" placeholder="Enter the item you want">
+         </label>
+
+         <a id="btn_getReview" ng-click="getVenues()"class="button button-stable  button-block">GetList</a>
+         <!--<button id="btn_getReview" style="margin-left: 600px" ng-click="getVenues()">Get list</button>-->
+       </div>
+     <hr>
+       <div id="div_VenueList">
+         <h2 style="text-align: center; color: Blue"> Top List of your favourite item </h2>
+         <ul>
+           <li ng-repeat="items in itemList" style="font-size: x-large; color: Blue; text-align: center; list-style: none" list-style-position:inside;>
+             <a  href="" ng-click="getReviews(items)" style="font-size: x-small; color: #5e5e5e; text-align: center;">{{items.name}}</a>
+           </li>
+         </ul>
+
+       </div>
+
+
+       <div id="div_ReviewList"align="center" style="display:none;"  >
+
+
+         <p ng-model="ReviewWithSentiment">
+
+         <TABLE BORDER=2 CELLPADDING=4> <TR> <TH style="color:Blue; background:#C70039" COLSPAN=2>Sentiment Analysis From Using UClassify API </TH> </TR>
+           <TR> <TD>Name of the product</TD> <TD>{{ReviewWithSentiment.itemSelected}}</TD> </TR>
+           <TR> <TD>Product Id</TD> <TD>{{ReviewWithSentiment.productId}}</TD> </TR>
+           <TR> <TD>Price</TD> <TD>{{ReviewWithSentiment.PriceOnSale}}</TD> </TR>
+           <TR> <TD>Product Description</TD> <TD>{{ReviewWithSentiment.reviewText}}</TD> </TR>
+           <TR> <TD>Sentiment of the review</TD> <TD>{{ReviewWithSentiment.sentimentPostiveScore}}</TD> </TR>
+
+
+           <!--<TR> <TD>Sentiment Score of the review</TD> <TD>{{ReviewWithSentiment.score}}</TD> </TR>
+           <TR> <TH style="color: aliceblue; background:#1ab188" COLSPAN=2 BGCOLOR="#445553">{{ReviewWithSentiment.reviewText}}</TH> </TR>-->
+         </TABLE>
+
+         </p>
+
+       </div>
+     </div>
+
+
+
+
+
+
+   </ion-content>
+</ion-view>
+
+
