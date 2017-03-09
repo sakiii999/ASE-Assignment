@@ -1,12 +1,12 @@
 
-<ion-view title="Home" id="page5" xmlns:list-style-position="http://www.w3.org/1999/xhtml"
+<ion-view title="home" id="page5" xmlns:list-style-position="http://www.w3.org/1999/xhtml"
           xmlns:list-style-position="http://www.w3.org/1999/xhtml"
           xmlns:list-style-position="http://www.w3.org/1999/xhtml">
    <ion-content padding="true" class="has-header"  ng-controller="View1Ctrl">
 
 
        <div id="div_SearchContainer">
-         <h1 align="absolute" style="text-align: center; color: Blue">Search your favourite item!</h1>
+         <h1 align="absolute" style="text-align: center; color: #C70039">Search your favourite item!</h1>
          <label class="item item-input" >
            <span class="input-label"></span>
            <input type="text" id="txt_itemName" placeholder="Enter the item you want">
@@ -17,9 +17,9 @@
        </div>
      <hr>
        <div id="div_VenueList">
-         <h2 style="text-align: center; color: Blue"> Top List of your favourite item </h2>
+         <h2 style="text-align: center; color: #C70039"> Top List of your favourite item </h2>
          <ul>
-           <li ng-repeat="items in itemList" style="font-size: x-large; color: Blue; text-align: center; list-style: none" list-style-position:inside;>
+           <li ng-repeat="items in itemList" style="font-size: x-large; color: #5e5e5e; text-align: center; list-style: none" list-style-position:inside;>
              <a  href="" ng-click="getReviews(items)" style="font-size: x-small; color: #5e5e5e; text-align: center;">{{items.name}}</a>
            </li>
          </ul>
@@ -32,7 +32,7 @@
 
          <p ng-model="ReviewWithSentiment">
 
-         <TABLE BORDER=2 CELLPADDING=4> <TR> <TH style="color:Blue; background:#C70039" COLSPAN=2>Sentiment Analysis From Using UClassify API </TH> </TR>
+         <TABLE BORDER=2 CELLPADDING=4> <TR> <TH style="color:#5e5e5e; background:#C70039" COLSPAN=2>Sentiment Analysis From Using UClassify API </TH> </TR>
            <TR> <TD>Name of the product</TD> <TD>{{ReviewWithSentiment.itemSelected}}</TD> </TR>
            <TR> <TD>Product Id</TD> <TD>{{ReviewWithSentiment.productId}}</TD> </TR>
            <TR> <TD>Price</TD> <TD>{{ReviewWithSentiment.PriceOnSale}}</TD> </TR>
